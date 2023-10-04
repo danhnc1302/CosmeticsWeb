@@ -1,4 +1,16 @@
 export default {
+    user : [
+        {
+            id: "102",
+            userName: "danh",
+            password: "1",
+        },
+        {
+            id: "103",
+            userName: "dat",
+            password: "2",
+        }
+    ],
     products: [
         {
             id: "1",
@@ -30,13 +42,15 @@ export default {
             id: "111",
             quantity: 2,
             productId: "1",
-            orderId: "1111"
+            orderId: "1111",
+            userId: "102"
         },
         {
             id: "222",
             quantity: 2,
             productId: "2",
-            orderId: "2222"
+            orderId: "2222",
+            userId: "103"
         }
     ],
     orders: [
