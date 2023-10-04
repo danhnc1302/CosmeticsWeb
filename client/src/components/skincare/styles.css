@@ -1,0 +1,14 @@
+.category {
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+.background-grey {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #f8f9fa;
+}
+
+.spacing {
+    margin-bottom: 20px;
+}

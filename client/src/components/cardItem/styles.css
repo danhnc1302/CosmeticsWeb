@@ -1,0 +1,46 @@
+.card-container {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    /* Add other necessary styles for the container */
+}
+
+.product-image {
+    object-fit: contain;
+    width: 100%; 
+    height: auto; 
+}
+
+.row-name {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Distribute items evenly along the row */
+}
+
+.add-basket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Set a fixed width or adjust based on your design */
+    height: 40px;
+    background-color: #6FAAF0;
+    border-radius: 10px;
+    color: white;
+}
+
+h6 {
+    margin: 0px;
+}
+
+.product-description {
+    text-align: left;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.price {
+    color: indianred;
+}

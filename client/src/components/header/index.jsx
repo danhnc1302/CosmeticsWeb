@@ -25,7 +25,8 @@ export default function Header() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1">Home</Nav.Link>
+                        <Nav.Link href="#action1">Home
+                        </Nav.Link>
                         <NavDropdown title="Shop" id="navbarScrollingDropdown">
                             <NavDropdown.Item href="#action2">Chăm sóc da mặt</NavDropdown.Item>
                             <NavDropdown.Item href="#action3">Trang điểm</NavDropdown.Item>

@@ -1,0 +1,40 @@
+.poster {
+  object-fit: contain;
+}
+
+.slideshow {
+  margin: 60px auto 10px;
+  overflow: hidden;
+  width: 80%;
+}
+
+.slide {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+/* Buttons */
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 5px;
+  width: 30px;  
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 7px 0px;
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #2991ae;
+}
