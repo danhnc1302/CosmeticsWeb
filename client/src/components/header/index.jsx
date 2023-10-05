@@ -52,17 +52,15 @@ export default function Header() {
                         />
                         <Button variant="outline-success">Search</Button>
                     </Form>
-                    <Nav.Link href="about">
-                        <div className="icon-container">
-                            <FiShoppingCart className="shopping-cart"/>
-                            {
-                                isBasketExist ? <div className="red-dot"></div> : null
-                            }
-                        </div>
-                    </Nav.Link>
-                    <FiUser className="shopping-cart"/>
                 </Navbar.Collapse>
             </Container>
+            <div className="icon-container">
+                <FiShoppingCart className="shopping-cart" />
+                {
+                    isBasketExist ? <div className="red-dot"></div> : null
+                }
+            </div>
+            <FiUser className="shopping-cart" />
         </Navbar>
     )
 }

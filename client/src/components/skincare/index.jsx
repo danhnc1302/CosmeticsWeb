@@ -15,10 +15,8 @@ export default function Skincare() {
                 <Col><CardItem/></Col>
                 <Col><CardItem/></Col>
                 <Col><CardItem/></Col>
-                <Col><CardItem/></Col>
             </Row>
             <Row>
-                <Col><CardItem/></Col>
                 <Col><CardItem/></Col>
                 <Col><CardItem/></Col>
                 <Col><CardItem/></Col>

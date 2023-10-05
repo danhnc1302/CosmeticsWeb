@@ -3,7 +3,6 @@
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    /* Add other necessary styles for the container */
 }
 
 .product-image {
@@ -14,23 +13,24 @@
 
 .row-name {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    justify-content: space-between; /* Distribute items evenly along the row */
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 .add-basket {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%; /* Set a fixed width or adjust based on your design */
+    width: 100%; 
     height: 40px;
     background-color: #6FAAF0;
     border-radius: 10px;
     color: white;
 }
 
-h6 {
+.add-basket h6 {
     margin: 0px;
+    font-size: 14px;
 }
 
 .product-description {
@@ -44,3 +44,101 @@ h6 {
 .price {
     color: indianred;
 }
+
+
+/* Mobile & Tablet */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width : 740px) and (max-width : 1024px)  {
+    .name {
+        font-size: 14px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .add-basket h6 {
+        font-size: 12px;
+    }
+}
+
+/* Mobile */
+@media only screen and (min-width : 650px) and (max-width : 740px) {
+    .name {
+        font-size: 12px;
+    }
+    .price {
+        font-size: 10px;
+    }
+    .add-basket h6 {
+        font-size: 10px;
+    }
+    .product-description {
+        font-size: 14px;
+    }
+    .add-basket {
+        height: 35px;
+    }
+}
+
+@media only screen and (min-width : 550px) and (max-width : 650px) {
+    .name {
+        font-size: 10px;
+    }
+    .price {
+        font-size: 8px;
+    }
+    .add-basket h6 {
+        font-size: 8px;
+    }
+    .product-description {
+        font-size: 10px;
+    }
+    .add-basket {
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width : 440px) and (max-width : 550px) {
+    .name {
+        font-size: 8px;
+    }
+    .price {
+        font-size: 6px;
+    }
+    .add-basket h6 {
+        font-size: 6px;
+    }
+    .product-description {
+        font-size: 8px;
+    }
+    .add-basket {
+        height: 26px;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width : 440px) {
+    .name {
+        font-size: 10px;
+    }
+    .price {
+        font-size: 8px;
+    }
+    .add-basket h6 {
+        font-size: 6px;
+    }
+
+    .product-description {
+        font-size: 12px;
+    }
+
+    .add-basket {
+        height: 24px;
+    }
+}
+
+
